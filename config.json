@@ -3,7 +3,7 @@
     "url": "http://localhost:8080",
     "name": "Ryan's Homestead",
     "owner": "Ryan Arana",
-    "description": "I write code and annoy my kids."
+    "description": "I write code and annoy my kids.",
     "build": "http://ryanarana.com"
   },
   "plugins": [
