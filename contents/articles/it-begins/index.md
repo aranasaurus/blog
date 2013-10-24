@@ -5,7 +5,13 @@ date: 2013-10-20
 template: article.jade
 ---
 
-After attending [the Realtime Conference](http://2013.realtimeconf.com/) this weekend, I came home bursting with inspiration to get my online identity reclaimed. And this is the start of that.
+After attending [the Realtime Conference](http://2013.realtimeconf.com/) this weekend,
+I came home bursting with inspiration to get my online identity reclaimed. There were
+several talks about this topic, but [Amber Case's](http://caseorganic.com) [The Open
+Web and the Opportunity of Now](http://caseorganic.com/notes/2013/10/22/2/realtimeconf-indieweb-ownyourdata)
+sums it up quite nicely. You should watch it!
+
+This is the start of my venture into the Indie Web.
 
 ## What next?
 
