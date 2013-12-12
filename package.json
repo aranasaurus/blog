@@ -1,8 +1,32 @@
 {
+  "name": "blog.ryanarana.com",
+  "version": "0.0.1",
+  "description": "Ryan Arana's blog.",
   "dependencies": {
     "moment": "2.x",
     "underscore": "1.4.x",
-    "typogr": "0.5.x"
+    "typogr": "0.5.x",
+    "director": "~1.2.1",
+    "ecstatic": "~0.4.13",
+    "union": "~0.3.8",
+    "wintersmith": "2.x"
   },
-  "repository": "none"
+  "scripts": {
+    "test": "echo \"Error: no tests specified\" && exit 1",
+    "start": "wintersmith build && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:thatryana/blog.git"
+  },
+  "bugs": {
+    "url": "http://github.com/thatryana/blog/issues",
+    "email": "ryan@ryanarana.com"
+  },
+  "author": "Ryan Arana <ryan@ryanarana.com>",
+  "license": "BSD-2-Clause",
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.3.x"
+  }
 }
