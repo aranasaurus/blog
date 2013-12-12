@@ -1,4 +1,5 @@
 require('./server').start({
   name: 'blog.ryanarana.com',
-  publicPath: 'build'
+  publicPath: 'build',
+  port: 80
 });
