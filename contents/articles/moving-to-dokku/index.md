@@ -45,7 +45,7 @@ env.build(function(error) {
   if (error) throw error;
   require('./server').start({
     name: 'blog.ryanarana.com',
-    publicPath: 'build'
+    publicPath: 'build' // This is the default output directory for Wintersmith. Change this if you've configured it differently.
   });
 });
 ```
