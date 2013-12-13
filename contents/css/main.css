@@ -16,12 +16,18 @@ body {
   margin: 0 auto;
 }
 
-body, a {
+body, a, .more a {
   color: #171717;
 }
 
+p a {
+  color: #da0000;
+  font-weight: 600;
+  text-decoration: none;
+}
+
 a:hover {
-  color: #ff8000;
+//  color: #ff8000;
   text-decoration: underline;
 }
 
@@ -305,8 +311,8 @@ p code {
   border-radius: 0.3em;
   position: relative;
   top: -0.15em;
-  background: rgba(214, 214, 214, 0.69);
-  color: #9e2f04;
+  background: rgba(231, 231, 231, 0.69);
+  color: #3f3f3f;
   white-space: nowrap;
 }
 
