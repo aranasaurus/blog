@@ -292,6 +292,7 @@ footer .copy, footer .copy a {
 code {
   font-family: 'Anonymous Pro', monospace;
   font-size: 0.85em;
+  font-weight: bold;
   color: #000;
 }
 
