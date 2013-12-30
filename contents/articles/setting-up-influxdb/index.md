@@ -11,7 +11,7 @@ documents how I got that all set up.
 
 ## The Setup
 
-I took the [Dokku][dokku] [droplet][digitalocean] that I set up [earlier](/moving-to-dokku) and manually added the [InfluxDB docker file][influx-docker] using
+I took the [Dokku][dokku] [droplet][digitalocean] that I set up [earlier](../moving-to-dokku) and manually added the [InfluxDB docker file][influx-docker] using
 the following steps:
 
 1. SSH'd into my droplet and ran these commands:
