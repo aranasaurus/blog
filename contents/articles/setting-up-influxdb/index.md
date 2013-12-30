@@ -9,7 +9,7 @@ I wanted to get a place set up where I could store some quantified self data. Sp
 nutritional info appended). We've been poking at using [InfluxDB][influx] for a project at work, and I think it is a perfect fit for this use case. This article
 documents how I got that all set up.
 
-# The Setup
+## The Setup
 
 I took the [Dokku][dokku] [droplet][digitalocean] that I set up [earlier](/moving-to-dokku) and manually added the [InfluxDB docker file][influx-docker] using
 the following steps:
