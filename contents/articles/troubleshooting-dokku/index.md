@@ -45,7 +45,7 @@ I will say the time wasn't *entirely* wasted as I now have a much better underst
 
 In the end, when I ran `dokku logs ryanarana.com` it showed me that the problem was actually that my main layout [Jade][jade] template was using a (now)
 deprecated function and crashing. I guess I didn't update my local dependencies before running the site locally to check my changes and I didn't have
-[Jade][jade] pinned so I got bit by that. When it deployed and ran `npm` it grabbed the latest version of [Jade][jade] and which had breaking changes. The
+[Jade][jade] pinned so I got bit by that. When it deployed and ran `npm` it grabbed the latest version of [Jade][jade] which had breaking changes. The
 moral of the story: **Run `dokku logs <app-name>` first**.
 
 [influx-article]: ../setting-up-influxdb/
