@@ -11,7 +11,7 @@ to find what ended up being a really simple fix. This article aims to collect so
 ## The List
 
 I'll come back and update this list as I come across more of these but for now there's just the one. If you have any you'd like to share [tweet][twitter] at me or
-[email](mailto:ryan@ryanarana.com) me, hell send me a [pull request][list-github]!
+[email][email] me, hell send me a [pull request][list-github]!
 
 ### Run `dokku logs <app-name>` first!
 
@@ -49,7 +49,8 @@ deprecated function and crashing. I guess I didn't update my local dependencies 
 moral of the story: **Run `dokku logs <app-name>` first**.
 
 [influx-article]: ../setting-up-influxdb/
-[twitter]: https://twitter.com/thatryana
+[twitter]: https://twitter.com/status?text=@thatryana+%23dokku+troubleshooting+tip%3A
+[email]: mailto:ryan@ryanarana.com?subject=Troubleshooting+Dokku+Tip
 [list-github]: https://github.com/thatryana/blog/blob/master/contents/articles/troubleshooting-dokku/index.md
 [dokku]: https://github.com/progrium/dokku
 [docker]: http://www.docker.io
