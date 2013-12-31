@@ -446,3 +446,21 @@ code.lang-markdown .bullet {
   }
 }
 
+.gravatar {
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 2px solid #efefef;
+  overflow: hidden;
+  vertical-align: -1.2em;
+  margin-right: .75em;
+}
+
