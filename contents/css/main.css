@@ -132,6 +132,15 @@ body.article-detail > header {
   margin-bottom: 3em;
 }
 
+.article-detail header p.date {
+  text-align: center;
+  font-size: 15px;
+}
+
+.article-detail header p.author {
+  margin-bottom: 0;
+}
+
 /* page footer */
 
 footer {
