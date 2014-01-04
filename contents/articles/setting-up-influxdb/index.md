@@ -14,7 +14,7 @@ documents how I got that all set up.
 I took the [Dokku][dokku] [droplet][digitalocean] that I set up [earlier](../moving-to-dokku) this month and manually added the [InfluxDB docker file][influx-docker]
 using the following steps:
 
-**NOTE:** *As it turns out I don't actually know what I'm doing with docker, so while this works it's not really "The Docker Way", nor is it correct or safe for the
+**NOTE:** *As it turns out I don't actually know what I'm doing with Docker. Therefor while this works, it's not really "The Docker Way". Nor is it correct or safe for the
 data that is created in the container. I'm still trying to figure out how best to solve these problems and I will edit this when I've got that all hashed out.*
 
 1. SSH'd into my droplet and ran these commands:
