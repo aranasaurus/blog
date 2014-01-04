@@ -14,6 +14,9 @@ documents how I got that all set up.
 I took the [Dokku][dokku] [droplet][digitalocean] that I set up [earlier](../moving-to-dokku) this month and manually added the [InfluxDB docker file][influx-docker]
 using the following steps:
 
+**NOTE:** *As it turns out I don't actually know what I'm doing with docker, so while this works it's not really "The Docker Way", nor is it correct or safe for the
+data that is created in the container. I'm still trying to figure out how best to solve these problems and I will edit this when I've got that all hashed out.*
+
 1. SSH'd into my droplet and ran these commands:
   1. `docker pull fujin/influxdb` - This gets the latest version from the docker index.
   2. `docker run -p 8083:8083 -p 8086:8086 -name="influxdb" fujin/influxdb` - The -p's map the containers 8083 (admin) and 8086 (api) ports to the host's ports of
