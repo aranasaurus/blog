@@ -26,7 +26,7 @@ data that is created in the container. I'm still trying to figure out how best t
 in the background.
 
 After that I spent some time changing passwords and setting up users and a database via curl since previous attempts at using the web admin interface were spotty
-at best. And that's pretty much it for the server side. Now I'm working on adding stuff to an [iOS client app](https://github.com/thatryana/influx-client) that [a
+at best. And that's pretty much it for the server side. Now I'm working on adding stuff to an [iOS client app](https://github.com/aranasaurus/influx-client) that [a
 coworker][courtf] made as a way to learn some iOS to allow me to send data to the server.
 
 [influx]: http://influxdb.org

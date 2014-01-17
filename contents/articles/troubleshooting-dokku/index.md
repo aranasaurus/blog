@@ -49,9 +49,9 @@ deprecated function and crashing. I guess I didn't update my local dependencies 
 moral of the story: **Run `dokku logs <app-name>` first**.
 
 [influx-article]: ../setting-up-influxdb/
-[twitter]: https://twitter.com/status?text=@thatryana+%23dokku+troubleshooting+tip%3A
+[twitter]: https://twitter.com/status?text=@aranasaurus+%23dokku+troubleshooting+tip%3A
 [email]: mailto:ryan@ryanarana.com?subject=Troubleshooting+Dokku+Tip
-[list-github]: https://github.com/thatryana/blog/blob/master/contents/articles/troubleshooting-dokku/index.md
+[list-github]: https://github.com/aranasaurus/blog/blob/master/contents/articles/troubleshooting-dokku/index.md
 [dokku]: https://github.com/progrium/dokku
 [docker]: http://www.docker.io
 [jade]: http://jade-lang.com

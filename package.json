@@ -17,10 +17,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:thatryana/blog.git"
+    "url": "git@github.com:aranasaurus/blog.git"
   },
   "bugs": {
-    "url": "http://github.com/thatryana/blog/issues",
+    "url": "http://github.com/aranasaurus/blog/issues",
     "email": "ryan@ryanarana.com"
   },
   "author": "Ryan Arana <ryan@ryanarana.com>",
