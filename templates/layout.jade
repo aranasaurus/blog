@@ -21,6 +21,9 @@ html(lang='en')
             h1
               a(href=locals.url)= locals.name
             p.description= locals.description
+            div(style='display:none')
+              a(href=locals.twitter rel='me')= '@'+locals.twitter
+              a(href=locals.github rel='me')= 'github.com/'+locals.github
     div#content
       div.content-wrap
         block content
