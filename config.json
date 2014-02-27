@@ -1,12 +1,12 @@
 {
   "locals": {
-    "url": "http://ryanarana.com",
+    "url": "http://aranasaurus.com",
     "name": "Ryan's Homestead",
     "owner": "Ryan Arana",
     "description": "I write code and annoy my kids.",
     "twitter": "https://twitter.com/aranasaurus",
     "github": "https://github.com/aranasaurus",
-    "build": "http://ryanarana.com"
+    "build": "http://aranasaurus.com"
   },
   "plugins": [
     "./plugins/paginator.coffee"
